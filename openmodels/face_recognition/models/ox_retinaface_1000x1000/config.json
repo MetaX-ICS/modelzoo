@@ -1,0 +1,14 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/face_recognition/ox_retinaface_1000x1000/",
+        "label_list":"./data/instances_val2017.json",
+        "image_T4":"./data/wider_val.txt",
+        "model_file":"retinaface.onnx",
+        "input_size":"3,1000,1000",
+        "mean":"104, 117, 123",
+        "scale":"1.",
+        "outputs_size":"41236,4#41236,10#41236,2",
+        "post_process":"get_retinaface_post",
+        "dataset":"widerface"
+    }
+}

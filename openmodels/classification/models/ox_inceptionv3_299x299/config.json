@@ -1,0 +1,14 @@
+{
+    "model_config":{
+        "~ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/classification/ox_inception_v3_299x299/",
+        "ori_path":"",
+        "label_T4":"./data/dataset.txt",
+        "model_file":"inception_v3_299x299_v1.onnx",
+	"with_batch": "False",
+        "input_size":"3,299,299",
+        "mean":"0.5, 0.5, 0.5",
+        "std":"0.5, 0.5, 0.5",
+	"reverse_channel": ""
+    }
+}
+

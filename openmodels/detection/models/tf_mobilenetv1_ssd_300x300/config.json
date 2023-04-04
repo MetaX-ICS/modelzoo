@@ -1,0 +1,16 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/detection/tf_mobilenetv1_ssd_300x300/",
+        "image_T4":"./data/dataset.txt",
+        "label_list":"./data/instances_val2017.json",
+        "model_file":"ssd_mobilenet_v1_coco_sim.onnx",
+        "input_size_pb":"300,300,3",
+        "input_size":"3,300,300",
+        "mean":"127.5,127.5,127.5",
+        "scale":"0.007843",
+        "outputs_size":"1917,91#1917,4",
+        "post_process":"get_mobilenetv1_ssd_bboxes_v1",
+        "reverse_channel":"",
+        "is91":"True"
+    }
+}

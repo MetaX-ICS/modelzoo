@@ -1,0 +1,15 @@
+{
+    "model_config":{
+        "ori_path":"",
+        "image_T4":"./data/dataset.txt",
+        "model_file":"det_mv3_db.pd",
+        "input_size":"3,736,1280",
+        "mean":"0.485,0.456,0.406",
+        "std":"0.229,0.224,0.225",
+        "outputs_size":"1,736,1280",
+        "reverse_channel":"",
+        "pre_process":"dbnet_preprocess",
+        "post_process":"get_dbnet_post",
+        "model_type":"paddle"
+    }
+}

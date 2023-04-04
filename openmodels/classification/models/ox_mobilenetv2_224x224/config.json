@@ -1,0 +1,12 @@
+{
+    "model_config":{
+        "ori_path":"/mnt/vdi_ai/Models/modelzoo/modelzoo1.0/classification/ox_mobilenetv2/",
+        "label_T4":"./data/dataset.txt",
+        "model_file":"mobilenet_v2.onnx",
+        "input_size":"3,224,224",
+        "mean":"0.485,0.456,0.406",
+        "std":"0.229,0.224,0.225",
+        "cls_num":"1000",
+        "reverse_channel": ""
+    }
+}

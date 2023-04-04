@@ -1,0 +1,17 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/detection/ox_vgg16_ssd_300x300/",
+        "label_list":"./data/voc-model-labels.txt",
+        "image_T4":"./data/voc.txt",
+        "model_file":"vgg16-ssd_v3.onnx",
+        "input_size":"3,300,300",
+        "mean":"123, 117, 104",
+        "scale":"1.0",
+        "outputs_size":"8732,21#8732,4",
+        "post_process":"get_vgg16_ssd_bboxes_v1",
+        "reverse_channel":"",
+        "dataset":"VOC",
+        "is91":"False",
+        "cus_quaninfer":"True"
+    }
+}

@@ -1,0 +1,2 @@
+images/baby_GT_scale_2.npy
+images/baby_GT_scale_4.npy

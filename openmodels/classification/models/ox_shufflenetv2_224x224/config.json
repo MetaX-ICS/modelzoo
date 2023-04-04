@@ -1,0 +1,13 @@
+{
+    "model_config":{
+        "ori_path":"/opt/models/modelZoo/classification/ox_shufflenetv2_224x224_v1.0/",
+        "label_T4":"./data/dataset.txt",
+        "model_file":"shufflenetv2.onnx",
+        "input_size":"3,224,224",
+        "mean":"123.675,116.28,103.53",
+        "scale":"0.0173",
+        "preprocess":"mbv1_preprocess",
+        "cls_num":"1000",
+        "reverse_channel": ""
+    }
+}

@@ -1,0 +1,29 @@
+dataset:
+  batch_size: 8
+  calib_dir: ./data/val2017
+  calib_num: 200
+  preprocessing:
+    attributes:
+      isreverses: false
+      mean:
+      - 123.675
+      - 116.28
+      - 103.53
+      resize:
+        keep_ratio: false
+        pad_value: 0
+        to:
+        - 3
+        - 608
+        - 608
+      std:
+      - 58.395
+      - 57.120000000000005
+      - 57.375
+    enable: true
+    type: preprocess_v1
+export_model: pd_yolov3_608x608/yolov3_darknet53_270e_coco_int8_maca.onnx
+export_type: maca
+import_model: pd_yolov3_608x608/yolov3_darknet53_270e_coco.onnx
+force_advance_quant: true
+quant_algorithm: minmax

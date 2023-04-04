@@ -1,0 +1,14 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/video_hancement/ox_vdsr_512x512/",
+        "image_T4":"./data/dataset_1_npy.txt",
+        "calib_data":"./data/dataset_calib.txt",
+        "model_file":"vdsr.onnx",
+        "input_size":"1,512,512",
+        "mean":"0.",
+        "scale":"1.",
+        "outputs_size":"1,512,512",
+        "pre_process":"vdsr_preprocess",
+        "post_process":"get_base_post"
+    }
+}

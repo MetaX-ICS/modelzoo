@@ -1,0 +1,14 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/segmentation/ox_unet_640x959/",
+        "image_T4":"./data/dataset_unet.txt",
+        "model_file":"unet.onnx",
+        "input_size":"3,640,959",
+        "mean":"0.0,0.0,0.0",
+        "scale":"0.00392",
+        "reverse_channel":"",
+        "outputs_size":"2,640,959",
+        "pre_process":"unet_preprocess",
+        "post_process":"get_unet_mask"
+    }
+}

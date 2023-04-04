@@ -1,0 +1,16 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/testpath/modelzoo/modelzoo1.0/detection/ox_yolov4_608x608/",
+        "image_T4":"./data/dataset.txt",
+        "label_list":"./data/instances_val2017.json",
+        "model_file":"yolov4_dy.onnx",
+        "input_size":"3,608,608",
+        "mean":"0.0,0.0,0.0",
+        "scale":"0.00392",
+        "outputs_size":"255,76,76#255,38,38#255,19,19",
+        "anchors":"12,16,19,36,40,28,36,75,76,55,72,146,142,110,192,243,459,401",
+        "post_process":"get_yolov4_bboxes_v1",
+        "reverse_channel":"",
+        "is91":"False"
+    }
+}

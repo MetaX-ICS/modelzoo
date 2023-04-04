@@ -1,0 +1,12 @@
+{
+    "model_config":{
+        "ori_path":"/workspace/data/Models/modelzoo/modelzoo1.0/classification/ox_mobilenetv1/",
+        "label_T4":"./data/dataset.txt",
+        "model_file":"mobilenet_v1-1_sim.onnx",
+        "input_size":"3,224,224",
+        "mean":"127.5,127.5,127.5",
+        "preprocess":"mbv1_preprocess",
+        "cls_num":"1001",
+        "reverse_channel": ""
+    }
+}
