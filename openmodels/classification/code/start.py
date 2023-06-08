@@ -6,10 +6,7 @@ import sys
 import json
 from common import get_params, check_type_model, check_model
 
-# UFF_Engine = "./code/TensorRT/sample-uff.py"
 ONNX_Engine = "./code/OnnxRT/sample_onnx_multithreads.py"
-# ONNX_Engine = "./code/OnnxRT/sample_onnx.py"
-# PPQ_Engine = "./code/OnnxRT/sample_ppq.py"
 
 
 def main(modelname, batchsize, precision, task="normal", modelfile="./", EP="maca", thr_num="16"):

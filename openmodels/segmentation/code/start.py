@@ -6,7 +6,7 @@ import sys
 import json
 from common import get_params, check_type_model, check_model
 
-ONNX_Engine = "./code/OnnxRT/sample_onnx_multithreads.py"
+ONNX_Engine = "./code/sample_onnx_multithreads.py"
 
 def main(modelname, batchsize, precision, task="normal", modelfile="./", EP="maca", thr_num="16"):
     params = get_params(modelname)
